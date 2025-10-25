@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terence Lemble | Personal Portfolio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0066ff, #00ccff);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 50px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #0066ff;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 10px 0 20px 0;
+    }
+
+    ul li {
+      margin: 8px 0;
+    }
+
+    /* --- Gallery Styles --- */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+      object-fit: cover;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .caption {
+      text-align: center;
+      font-size: 0.95em;
+      margin-top: 8px;
+      color: #555;
+    }
+
+    .contact {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .contact a {
+      text-decoration: none;
+      color: #0066ff;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      background: #f0f0f0;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Terence Lemble</h1>
+    <p>17 years old | Singapore PR | Student at IFS | Future National Serviceman</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi! I’m Terence Lemble, a 17-year-old student who has lived in Singapore for 12 years and currently studies at the International French School (IFS). 
+      I’m an active and motivated person who enjoys learning new skills, working in teams, and pushing my limits both mentally and physically.
+    </p>
+    <p>
+      I’ve practiced <strong>Taekwondo</strong> for over 7 years, which has taught me discipline, respect, and perseverance. 
+      I also hold a <strong>Brevet Certificate</strong> and <strong>CPR Certification</strong>, reflecting my responsibility and awareness for safety. 
+      I love gaming, sports, and challenges that help me grow.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills & Interests</h2>
+    <ul>
+      <li>🥋 Taekwondo (7+ years of training)</li>
+      <li>🧠 Leadership, Discipline, and Teamwork</li>
+      <li>❤️ CPR & First-Aid Knowledge</li>
+      <li>⚽ Sports and Physical Fitness Enthusiast</li>
+      <li>🎮 Gaming & Team Strategy</li>
+      <li>🌍 Multicultural Experience – Lived in Singapore and Switzerland</li>
+      <li>🇨🇳 Learned Chinese</li>
+    </ul>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements & Certifications</h2>
+    <ul>
+      <li>🏅 Brevet Certificate</li>
+      <li>🚑 CPR Certification</li>
+      <li>🥋 Over 7 Years of Taekwondo Training</li>
+      <li>🏅 Baccalaureate certificate</li>
+      <li>🏅 SVT certificate</li>
+      <li>🏅 Pix certificate</li>
+    </ul>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery">
+    <h2>My Certificates & Activities</h2>
+    <div class="gallery">
+      <div>
+        <img src="Connor.jpg" alt="Connor Worplace">
+        <p class="caption">Worked at connor store</p>
+      </div>
+      <div>
+        <img src="certificate2.jpg" alt="CPR Certificate">
+        <p class="caption">CPR Certification</p>
+      </div>
+      <div>
+        <img src="taekwondo.jpg" alt="Taekwondo Training">
+        <p class="caption">Taekwondo Training Session</p>
+      </div>
+      <div>
+        <img src="sports.jpg" alt="Sports Activity">
+        <p class="caption">Participating in Sports Events</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="qualities">
+    <h2>Personal Qualities</h2>
+    <ul>
+      <li>Motivated and Hardworking</li>
+      <li>Disciplined and Responsible</li>
+      <li>Team Player with Leadership Potential</li>
+      <li>Adaptable and Open-Minded</li>
+    </ul>
+  </section>
+
+  <div class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:terence.lemble@outlook.com">terence.lemble@outlook.com</a></p>
+  </div>
+
+  <footer>
+    <p>© 2025 Terence Lemble. All rights reserved.</p>
+  </footer>
+</body>
+</html>
